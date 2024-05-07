@@ -4,8 +4,8 @@ from .engine import Engine
 from .pydantic_model import UserRes
 from .pydantic_model import UserSignUp
 from .schema import User
-from fastapi import FastAPI
-from fastapi import Depends
+from fastapi import FastAPI # type: ignore
+from fastapi import Depends # type: ignore
 
 
 app = FastAPI()
